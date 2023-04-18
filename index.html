@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./content/css/main.css">
+    <link rel="stylesheet" href="./content/icon/fontawesome-free-6.1.2-web/css/all.css">
+</head>
+<body>
+    <div class="container"> 
+        <form id="form" action="" onsubmit="return validate();" method="POST" >
+            <div class="title"><h2>Let's partner up</h2>
+            <p>Let's level up your brand,together.</p></div>
+             
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Name" onkeyup="nameValidation()"><br>
+            <span class="name-validation">must Condition 8 character</span>
+
+            <label for="email"></label>
+            <input type="text" id="email" placeholder="Email" onkeyup="emailValidation()"><br>
+            <span class="email-validation">must Condition 8 character</span>
+
+           <label for="password"></label>
+           <input type="password" name="password"  id="password" placeholder="password" onkeyup="passwordValidation()" ><br>
+           <span class="password-validation">must Condition 8 character</span>
+           
+           
+           <textarea class="text" name="" id="textarea" cols="20" rows="4" placeholder="How can we help?"></textarea><br><br>
+
+           <button id="input-btn" type="submit">Get started</button><br><br>
+
+           <div class="perfer"><p>prefer email?</p><a href="">  hello@untitledui.com</a></div>
+           
+
+        </form>
+        <div class="img"> 
+            <h1><span>"We partnered with Untitled for</span> <br> our rebrand and launch and raised <br> over $40M Series A."</h1>
+            <i class="icon fa-solid fa-arrow-left"></i>
+            <i class="icon fa-solid fa-arrow-right"></i>
+            
+            <div class="total">
+                <div class="one">
+                    <p>partner <i class="fa-sharp fa-solid fa-arrow-down"></i><br>
+                     catalog <br><br>
+                      website<i class="fa-sharp fa-solid fa-arrow-down"></i><br>
+                      getcatalog.io
+                    </p>
+                </div>
+
+                <div class="two">
+                        <p>year <i class="fa-sharp fa-solid fa-arrow-down"></i><br>
+                          February 2022 <br><br>
+                          investment<i class="fa-sharp fa-solid fa-arrow-down"></i><br>
+                          $40,000,000
+                       </p>
+                  </div>
+
+                <div>
+                    <p class="three">
+                        Services<i class="fa-sharp fa-solid fa-arrow-down"></i><br>
+                        Brand strategy <br>
+                        website Design <br>
+                        Marketing Assets <br>
+                        Pitch Deck Design <br>
+                        Webflow Development
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./content/js/index.js"></script>
+</body>
+</html>
